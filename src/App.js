@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Crud from './components/Crud'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <h1>Consumindo Api</h1>
       </header>
-    </div>
+      <section>
+        <div>
+          <h2>Executando o CRUD</h2>
+        </div>
+      </section>
+      <Crud/>
+      <footer>
+        <p>@Luca</p>
+      </footer>
+    </>
   );
 }
 
-export default App;
