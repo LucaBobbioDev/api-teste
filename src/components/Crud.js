@@ -21,7 +21,7 @@ export default function Crud (){
                         return(
                             <li key={photo.id}>
                                 <b>{photo.id}</b> <br></br>
-                                <img src={photo.url}></img>
+                                <img src={photo.url} alt={photo.albumId}></img>
                                 <p>{photo.title}</p>
                             </li>
                         )
