@@ -5,17 +5,10 @@ export default function App() {
   return (
     <>
       <header>
-        <h1>Consumindo Api</h1>
+        <h1>Consumindo uma Api em React </h1>
+        <p>@Luca Bobbio</p>
       </header>
-      <section>
-        <div>
-          <h2>Executando o CRUD</h2>
-        </div>
-      </section>
       <Crud/>
-      <footer>
-        <p>@Luca</p>
-      </footer>
     </>
   );
 }
